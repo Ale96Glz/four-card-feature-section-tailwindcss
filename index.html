@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
+  <body
+    class="h-screen grid justify-center bg-neutral-very-light-gray font-poppins"
+  >
+    <main class="w-full py-8 px-4 max-w-[1000px] md:grid md:place-content-center md:py-1 md:px-4">
+      <div>
+        <div class="datos text-center">
+          <h2 class="text-2xl text-neutral-grayish-blue font-extralight">
+            Reliable, efficient delivery
+          </h2>
+          <h1 class="text-2xl font-semibold mt-1">Powered by Technology</h1>
+
+          <p class="mt-7 text-neutral-grayish-blue font-extralight px-5">
+            Our Artificial Intelligence powered tools use millions of project
+            data points to ensure that your project is successful
+          </p>
+        </div>
+
+        <div class="mt-10 grid gap-5 md:grid-cols-3 items-center">
+          <article class="card border-t-primary-cyan">
+            <h1 class="text-neutral-very-dark-blue text-xl font-semibold">
+              Supervisor
+            </h1>
+            <p class="text-neutral-grayish-blue mt-2">
+              Monitors activity to identify project roadblocks
+            </p>
+            <div class="flex justify-end mt-7">
+              <img src="images/icon-supervisor.svg" alt="Supervisor" />
+            </div>
+          </article>
+
+          <div class="grid gap-5">
+            <article class="card border-t-primary-red">
+              <h1 class="text-neutral-very-dark-blue text-xl font-semibold">
+                Team Builder
+              </h1>
+              <p class="text-neutral-grayish-blue mt-2">
+                Scans our talent network to create the optimal team for your
+                project
+              </p>
+              <div class="flex justify-end mt-7">
+                <img src="images/icon-team-builder.svg" alt="Team" />
+              </div>
+            </article>
+
+            <article class="card border-t-primary-orange">
+              <h1 class="text-neutral-very-dark-blue text-xl font-semibold">
+                Karma
+              </h1>
+              <p class="text-neutral-grayish-blue mt-2">
+                Regularly evaluates our talent to ensure quality
+              </p>
+              <div class="flex justify-end mt-7">
+                <img src="images/icon-karma.svg" alt="Karma" />
+              </div>
+            </article>
+          </div>
+
+          <article class="card border-t-primary-blue">
+            <h1 class="text-neutral-very-dark-blue text-xl font-semibold">
+              Calculator
+            </h1>
+            <p class="text-neutral-grayish-blue mt-2">
+              Uses data from past projects to provide better delivery estimates
+            </p>
+            <div class="flex justify-end mt-7">
+              <img src="images/icon-calculator.svg" alt="Calculator" />
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
